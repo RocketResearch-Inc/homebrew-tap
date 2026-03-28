@@ -3,7 +3,7 @@ cask "compair" do
   name "compair"
   desc "Cross-repo review from the terminal"
   homepage "https://compair.sh"
-  version "0.3.4"
+  version "0.3.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "compair" do
     on_intel do
       url "https://github.com/RocketResearch-Inc/compair-cli/releases/download/v#{version}/compair_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/RocketResearch-Inc/compair-cli/"
-      sha256 "f39cb4e96df83d0fcecdc402580eebb094fbaa03ab3523a0fb767596416a86a3"
+      sha256 "c8cbaab9b2d20f34ce7ea67a6f82f0e9779f7dcfa9eedb45f4768ad2aa645296"
     end
     on_arm do
       url "https://github.com/RocketResearch-Inc/compair-cli/releases/download/v#{version}/compair_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/RocketResearch-Inc/compair-cli/"
-      sha256 "650a6b8dd31106d738f61da440aa9e0bbbe4b1d71dd02792a12c7c695751587f"
+      sha256 "ac2ce9fcc0d0982a7ad0fff49bb8aa012fbedfe5d121708e5658909dedfbca9e"
     end
   end
 
