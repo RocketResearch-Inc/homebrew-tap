@@ -6,12 +6,12 @@ cask "compair" do
     on_intel do
       url "https://github.com/RocketResearch-Inc/compair-cli/releases/download/v#{version}/compair_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/RocketResearch-Inc/compair-cli/"
-      sha256 "c88a80467ef19f316bfcc115f8ce309e405689ddfc95e08a58754c4494d2ec5d"
+      sha256 "8e9e88839ef23a6886f2274796b76a9892d5590c15c11dce5136544af24db0a4"
     end
     on_arm do
       url "https://github.com/RocketResearch-Inc/compair-cli/releases/download/v#{version}/compair_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/RocketResearch-Inc/compair-cli/"
-      sha256 "021b2b7bf40bc20bc687b0d286d4f019ce825edce95d22fbba75a6e1419b6bb5"
+      sha256 "c9c92752eddbae762acbafc7b00bd149dd06a24fd1e12f94333067f83abeac5d"
     end
   end
 
